@@ -1,0 +1,73 @@
+h1{
+    background-color: transparent;
+    color: #255;
+    font-family: times; 
+    padding: 40px;
+    margin: 10px;
+    text-align: center;
+    font-size: 90px;
+
+}
+h3{
+    background-color: #E0115F;
+    color: white;
+    font-family: times; 
+    padding: 40px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 20px;
+    text-align: center;
+    opacity: .8;
+}
+.container{
+    background-color: pink;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    height: 250px;
+    padding: 50px;
+    opacity: .8;
+  }
+
+.container img{
+    width: 50%;
+    height: 60%;
+  }
+.card{
+  font-family: times; 
+  margin: auto;
+  background-color:pink;
+  color: #255;
+}
+
+.row{
+    margin: 10px;
+    
+}
+main {
+    flex: 1;
+  }
+
+footer{
+    width: 100%;
+    background-color: #255;
+    color: white;
+    text-align: center;
+    opacity: .8;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: linear-gradient(to bottom,#dd5e89  0%, #f7bb97 100%); (,; 
+}
+
+body .background{
+  opacity: 0.1;
+  
+}
+html, body {
+    height: 100%;
+    margin: 0;
+  
+  }

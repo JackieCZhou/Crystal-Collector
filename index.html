@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style.css">
+
+</head>
+
+<body>
+
+    <main>
+
+        <header>
+            <h1>Crystal Collector!</h1>
+        </header>
+        <h3>Crystal Collector game rules:
+            <br>
+            Win the game by matching your combination of crystal totals
+            <br>
+            to the number given to you at the begining of each round.
+            <br>
+            Click on a crystal to discover it's hidden value
+            <br>
+            Go over the given number and you lose the round.
+            <br>
+            The crystals get new values each round!
+        </h3>
+
+
+
+        <div class="card" style="width: 18rem;">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">The Computer Chose: <span id="computer-choice-text"></span></li>
+                
+            </ul>
+        </div>
+        <br>
+
+        <div class="card" style="width: 18rem;">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Your Points: <span id="your-points-text"></span></li>
+                
+            </ul>
+        </div>
+        <br>
+        <div class="card" style="width: 18rem;">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Wins: <span id="wins-text"></span></li>
+                
+                <li class="list-group-item">Losses: <span id="losses-text"></span></li>
+                
+            </ul>
+        </div>
+        <br>
+        <div class="container bg-transparent">
+            <div class="row">
+                <div class="col">
+                    <div class="crystals crystal1">
+                        
+                        <img src="http://res.freestockphotos.biz/pictures/7/7418-illustration-of-a-green-gem-pv.png"
+                            alt="gem">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="crystals crystal2">
+                        <img src="http://res.freestockphotos.biz/pictures/7/7741-illustration-of-a-heart-shaped-diamond-pv.png"
+                            alt="gem">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="crystals crystal3">
+                        <img src="http://res.freestockphotos.biz/pictures/7/7418-illustration-of-a-green-gem-pv.png"
+                            alt="gem">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="crystals crystal4">
+                        <img src="http://res.freestockphotos.biz/pictures/7/7741-illustration-of-a-heart-shaped-diamond-pv.png"
+                            alt="gem">
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <br>
+        <!-- card for your score & a card for the computers chosen # -->
+
+
+        <!--  game has 4 crystals
+each crystal have a random num. value
+new number generates with each round-->
+
+        <!-- computer selects random num
+crstal combination you create must match computer selection -->
+
+        <!-- when numbers match, game resets, wins goes up 1 -->
+
+        <!-- when guesser goes over computer's selected num with their 
+combination of crystals, game resets & losses goes up one -->
+
+        <!-- at rest: wins/losses change & crystals select new numbers -->
+
+
+        <!-- title
+game rules
+box with computer selection
+grid of 4 crystals 
+box underneath that shows current points
+box with wins/losses -->
+        <div class="footer">
+            <footer>copywrite</footer>
+        </div>
+
+    </main>
+    <script src="assets/game.js"></script>
+</body>
+
+</html>
+
+
+<!-- function initializecalculator
+resets all variables at once -->
+
+<!-- call function once a round has finished -->
