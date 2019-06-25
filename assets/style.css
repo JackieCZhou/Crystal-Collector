@@ -1,6 +1,6 @@
 h1{
     background-color: transparent;
-    color: #255;
+    color: rgb(158, 28, 201);
     font-family: times; 
     padding: 40px;
     margin: 10px;
@@ -9,12 +9,12 @@ h1{
 
 }
 h3{
-    background-color: #E0115F;
+    background-color: rgb(244, 176, 202);
     color: white;
     font-family: times; 
     padding: 40px;
-    margin-left: 250px;
-    margin-right: 250px;
+    margin-left: 20%;
+    margin-right: 20%;
     margin-bottom: 20px;
     text-align: center;
     opacity: .8;
@@ -37,7 +37,7 @@ h3{
   font-family: times; 
   margin: auto;
   background-color:pink;
-  color: #255;
+  color: rgb(158, 28, 201);
 }
 
 .row{
@@ -50,7 +50,7 @@ main {
 
 footer{
     width: 100%;
-    background-color: #255;
+    background-color: rgb(244, 176, 202);;
     color: white;
     text-align: center;
     opacity: .8;
@@ -59,7 +59,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background: linear-gradient(to bottom,#dd5e89  0%, #f7bb97 100%); (,; 
+    background-image: url(crystalbackground.jpg);
+    background-image: cover;
 }
 
 body .background{
@@ -70,4 +71,8 @@ html, body {
     height: 100%;
     margin: 0;
   
+  }
+
+  .li{
+    margin-left: 50%
   }
