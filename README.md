@@ -1,6 +1,6 @@
 Crystal Collector:  Click Crystal Collector Video within the code files to see the game in action!
 
-Follow The link to play yourself:
+Follow the link to play Crystal Collector:
 https://jackieczhou.github.io/Crystal-Collector/
 
 A functional matching game, Crystal Collector uses Math.floor(Math.random() to generate random intergers for the computer and crystal buttons via auto-loading the page or through an onWin() or onLoss() event.  Accumulated wins and losses are stored using sessionStorage until the page is refreshed. The goal of Crystal Collector being to match the computer score to the users score based on the addition of each crystals points via the onClick() event.
