@@ -17,9 +17,9 @@ Going over the computers score will result in the "Loss" field increasing by one
 Upon a win or loss being triggered the game automatically restarts. New intergers are generated and assigned to the computer player as well as the crystals.  The "Wins" and "Losses" fields keep track of their points until the page is refreshed.
 
 
-Coded in:
+Languages Used:
 HTML, CSS, Javascript
 
-Design:
+Layout & Design:
 Bootstrap
 
