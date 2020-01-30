@@ -26,6 +26,6 @@ Bootstrap
 The next steps of this project would be:
 Fine tune the styling.
 Add a real time updating leaderboad to track results.
-Add more animated win and lose responses to the end of each round.
+Add more animation to the win and loss events.
 
 
